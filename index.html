@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>HTML Elements Reference</title>
-  <style>
-        img {
-            width: 100%;
-            height: auto;
-        }
-  </style>
-  <link rel="stylesheet" href="styles.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Zoom</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="container">
+        <img src="KoipPeakPass.jpg" alt="Sample Image" class="zoom-image" id="myImage">
+    </div>
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+    <div id="overlay" class="overlay">
+        <span class="close" id="closeBtn">&times;</span>
+        <img class="overlay-content" id="expandedImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
   
-<h1>Koip Peak Pass</h1>
-<img src="KoipPeakPass.jpg" alt="Taken from the Top">
+
 
   
 </body>
