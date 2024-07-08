@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Zoom</title>
+    <title>Image Gallery</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Image Gallery</h1>
-    <div class="container">
+    <div class="container" id="imageContainer">
          <img src="pictures/KoipPeakPass.jpg" alt="Sample Image" class="zoom-image" id="myImage" data-highres="pictures/KoipPeakPassPanorama.jpg">
          <img src="pictures/GGP_Tree_Small.jpg" alt="Sample Image 2" class="zoom-image" id="myImage2" data-highres="pictures/GGP_Tree_Large.jpg">
-       <img src="pictures/FootHill_Pano_Small.jpg" alt="Sample Image 2" class="zoom-image" id="myImage2" data-highres="pictures/Foothill_Pano_Large.jpg">
+           <img src="pictures/FootHill_Pano_Small.jpg" alt="Sample Image 2" class="zoom-image" id="myImage2" data-highres="pictures/Foothill_Pano_Large.jpg">
        <img src="pictures/Flower_Sun_Small.jpg" alt="Sample Image 2" class="zoom-image" id="myImage2" data-highres="pictures/Flower_Sun.jpg">
 
-   
-     </div>
+    </div>
 
     <div id="overlay" class="overlay">
         <span class="close" id="closeBtn">&times;</span>
@@ -24,6 +23,6 @@
 
     <script src="script.js"></script>
 </body>
-  
 </html>
+
 
