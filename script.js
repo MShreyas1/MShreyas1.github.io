@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     img.onclick = function(){
         overlay.style.display = "flex";
-        expandedImg.src = this.src;
+        expandedImg.src = this.getAttribute("data-highres");
     }
 
     closeBtn.onclick = function() { 
