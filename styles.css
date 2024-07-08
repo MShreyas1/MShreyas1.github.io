@@ -12,7 +12,7 @@ body {
 }
 
 .zoom-image {
-    max-width: 100%;
+    width: 150px; /* Set a small width for the original image */
     cursor: pointer;
     transition: transform 0.2s;
 }
